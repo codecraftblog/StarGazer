@@ -65,6 +65,7 @@
 				2F9959E52663E62300EE49CA /* Post.swift */,
 				2F9959E82664213400EE49CA /* NetworkHandler.swift */,
 				2F9959D62663DC1B00EE49CA /* Main.storyboard */,
+				2F9959DE2663DC1E00EE49CA /* Info.plist */,
 			);
 			path = StarGazer;
 			sourceTree = "<group>";
@@ -76,7 +77,6 @@
 				2F9959D22663DC1B00EE49CA /* SceneDelegate.swift */,
 				2F9959D92663DC1E00EE49CA /* Assets.xcassets */,
 				2F9959DB2663DC1E00EE49CA /* LaunchScreen.storyboard */,
-				2F9959DE2663DC1E00EE49CA /* Info.plist */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
