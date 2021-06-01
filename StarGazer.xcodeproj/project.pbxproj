@@ -60,6 +60,7 @@
 		2F9959CF2663DC1B00EE49CA /* StarGazer */ = {
 			isa = PBXGroup;
 			children = (
+				2F9959D92663DC1E00EE49CA /* Assets.xcassets */,
 				2FBDBFB82666573700AFC6BC /* Supporting Files */,
 				2F9959D42663DC1B00EE49CA /* ViewController.swift */,
 				2F9959E52663E62300EE49CA /* Post.swift */,
@@ -75,7 +76,6 @@
 			children = (
 				2F9959D02663DC1B00EE49CA /* AppDelegate.swift */,
 				2F9959D22663DC1B00EE49CA /* SceneDelegate.swift */,
-				2F9959D92663DC1E00EE49CA /* Assets.xcassets */,
 				2F9959DB2663DC1E00EE49CA /* LaunchScreen.storyboard */,
 			);
 			path = "Supporting Files";
@@ -312,7 +312,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.codecraft.blog.StarGazer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -331,7 +331,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.codecraft.blog.StarGazer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
