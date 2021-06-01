@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18092"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -16,35 +16,44 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="qr9-RK-PBm">
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="qr9-RK-PBm">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="862"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="fl5-YT-xrt">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="421"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="491"/>
+                                        <color key="backgroundColor" white="1" alpha="0.51200140591325427" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </imageView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="Pew-Uk-kPS">
-                                        <rect key="frame" x="20" y="441" width="374" height="421"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="Pew-Uk-kPS">
+                                        <rect key="frame" x="20" y="511" width="374" height="351"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title Goes Here" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nr4-VM-7B2">
-                                                <rect key="frame" x="0.0" y="0.0" width="224" height="41"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title Goes Here" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nr4-VM-7B2">
+                                                <rect key="frame" x="0.0" y="0.0" width="374" height="37"/>
                                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z4G-jP-VQq">
-                                                <rect key="frame" x="0.0" y="61" width="374" height="360"/>
+                                                <rect key="frame" x="0.0" y="57" width="374" height="232"/>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                                <mutableString key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</mutableString>
+                                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                                 <color key="textColor" systemColor="labelColor"/>
                                                 <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7ce-Gz-S0M">
+                                                <rect key="frame" x="161.5" y="309" width="51" height="42"/>
+                                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                                <state key="normal" title="Next"/>
+                                                <connections>
+                                                    <action selector="fetchNextButtonClickedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="I6P-Q6-rjf"/>
+                                                </connections>
+                                            </button>
                                         </subviews>
                                         <constraints>
                                             <constraint firstItem="z4G-jP-VQq" firstAttribute="leading" secondItem="Pew-Uk-kPS" secondAttribute="leading" id="KB0-gx-4NL"/>
                                             <constraint firstItem="z4G-jP-VQq" firstAttribute="top" secondItem="Nr4-VM-7B2" secondAttribute="bottom" constant="20" id="VdF-9H-EJI"/>
                                             <constraint firstAttribute="trailing" secondItem="z4G-jP-VQq" secondAttribute="trailing" id="cYL-Eg-QvA"/>
-                                            <constraint firstAttribute="bottom" secondItem="z4G-jP-VQq" secondAttribute="bottom" id="oe7-Or-s90"/>
+                                            <constraint firstItem="Nr4-VM-7B2" firstAttribute="leading" secondItem="Pew-Uk-kPS" secondAttribute="leading" id="dgt-zl-7YJ"/>
                                         </constraints>
                                     </stackView>
                                 </subviews>
@@ -52,6 +61,7 @@
                                     <constraint firstItem="fl5-YT-xrt" firstAttribute="leading" secondItem="qr9-RK-PBm" secondAttribute="leading" id="Evl-rR-Jq0"/>
                                     <constraint firstAttribute="trailing" secondItem="fl5-YT-xrt" secondAttribute="trailing" id="Puf-PC-ue5"/>
                                     <constraint firstAttribute="trailing" secondItem="Pew-Uk-kPS" secondAttribute="trailing" constant="20" id="nVR-u6-bkx"/>
+                                    <constraint firstItem="fl5-YT-xrt" firstAttribute="height" secondItem="Pew-Uk-kPS" secondAttribute="height" multiplier="1.4" id="pK9-F2-Iiu"/>
                                     <constraint firstItem="Pew-Uk-kPS" firstAttribute="leading" secondItem="qr9-RK-PBm" secondAttribute="leading" constant="20" id="pZb-S2-bgM"/>
                                 </constraints>
                             </stackView>

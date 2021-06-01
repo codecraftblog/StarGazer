@@ -14,6 +14,7 @@
 		2F9959DA2663DC1E00EE49CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F9959D92663DC1E00EE49CA /* Assets.xcassets */; };
 		2F9959DD2663DC1E00EE49CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F9959DB2663DC1E00EE49CA /* LaunchScreen.storyboard */; };
 		2F9959E62663E62300EE49CA /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9959E52663E62300EE49CA /* Post.swift */; };
+		2F9959E92664213500EE49CA /* NetworkHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9959E82664213400EE49CA /* NetworkHandler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		2F9959DC2663DC1E00EE49CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2F9959DE2663DC1E00EE49CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2F9959E52663E62300EE49CA /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		2F9959E82664213400EE49CA /* NetworkHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkHandler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +60,25 @@
 		2F9959CF2663DC1B00EE49CA /* StarGazer */ = {
 			isa = PBXGroup;
 			children = (
-				2F9959D02663DC1B00EE49CA /* AppDelegate.swift */,
-				2F9959D22663DC1B00EE49CA /* SceneDelegate.swift */,
+				2FBDBFB82666573700AFC6BC /* Supporting Files */,
 				2F9959D42663DC1B00EE49CA /* ViewController.swift */,
 				2F9959E52663E62300EE49CA /* Post.swift */,
+				2F9959E82664213400EE49CA /* NetworkHandler.swift */,
 				2F9959D62663DC1B00EE49CA /* Main.storyboard */,
+			);
+			path = StarGazer;
+			sourceTree = "<group>";
+		};
+		2FBDBFB82666573700AFC6BC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2F9959D02663DC1B00EE49CA /* AppDelegate.swift */,
+				2F9959D22663DC1B00EE49CA /* SceneDelegate.swift */,
 				2F9959D92663DC1E00EE49CA /* Assets.xcassets */,
 				2F9959DB2663DC1E00EE49CA /* LaunchScreen.storyboard */,
 				2F9959DE2663DC1E00EE49CA /* Info.plist */,
 			);
-			path = StarGazer;
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,6 +154,7 @@
 				2F9959D52663DC1B00EE49CA /* ViewController.swift in Sources */,
 				2F9959D12663DC1B00EE49CA /* AppDelegate.swift in Sources */,
 				2F9959D32663DC1B00EE49CA /* SceneDelegate.swift in Sources */,
+				2F9959E92664213500EE49CA /* NetworkHandler.swift in Sources */,
 				2F9959E62663E62300EE49CA /* Post.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
